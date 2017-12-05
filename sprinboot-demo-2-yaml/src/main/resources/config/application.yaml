@@ -1,0 +1,19 @@
+
+#英文状态下 分号空格
+titanium: 
+  secret: ${random.value}
+  number: ${random.int}
+  name: www.titanium.com
+  desc: ${titanium.name} is a domain name
+
+#应用端口
+server: 
+  port: 8989
+
+
+spring: 
+  jackson: 
+    #时间格式化
+    date-format: yyyy-MM-dd HH:mm:ss
+    #设置时区
+    time-zone: Asia/Shanghai

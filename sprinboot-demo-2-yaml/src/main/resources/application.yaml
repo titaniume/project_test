@@ -1,0 +1,19 @@
+
+#32位随机字符串
+titanium: 
+  secret: ${random.value}
+  number: ${random.int}
+  name: www.titanium.com
+  desc: ${titanium.name} is a domain name
+
+#应用端口
+server: 
+  port: 8080
+
+
+spring: 
+  jackson: 
+    #时间格式化
+    date-format: yyyy-MM-dd HH:mm:ss
+    #设置时区
+    time-zone: Asia/Shanghai

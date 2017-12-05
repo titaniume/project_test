@@ -1,0 +1,6 @@
+	
+	.propertis 文件多环境配置
+	在application.properties主文件中加入
+	spring.profiles.active=test   修改后缀名即可切换不同环境的配置
+	
+	
